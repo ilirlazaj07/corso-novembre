@@ -1,0 +1,13 @@
+p {color: red;}
+
+.classe {
+    background-color : grey;
+}
+
+a {
+    margin-right: 10px;
+}
+
+.rotta-attiva {
+    background-color: gray;
+}

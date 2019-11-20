@@ -1,0 +1,10 @@
+<p *ngIf="'ssss';else nonFunziona">{{'Funziona !!!'}}</p>
+
+<h4>{{cars | json}}</h4>
+
+<ng-template #nonFunziona>
+    <p>NON FUNZIONA</p>
+</ng-template>
+
+<app-car *ngFor="let car of cars" (cancellaCar)="togli($event)"
+ [macchina]="car" [test]="testString" ></app-car>

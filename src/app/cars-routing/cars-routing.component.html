@@ -1,0 +1,10 @@
+<router-outlet></router-outlet>
+
+<ul *ngIf="(cars$ | async); else loading">
+    <li (click)="goToCar(item.id)" *ngFor="let item of cars$ | async">{{item | json}}</li>
+</ul>
+
+<ng-template #loading>
+    <p>Caricamento cars in corso...</p>
+</ng-template>
+
