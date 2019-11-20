@@ -1,6 +1,6 @@
 # CorsoNovembre
 
-DOPO AVER CLONATO IL PROGETTO ESEGUIRE SULLA ROOT DI PROGETTO IL COMANDO: npm install !
+DOPO AVER CLONATO IL PROGETTO ESEGUIRE SULLA ROOT DI PROGETTO IL COMANDO: npm install 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
 
